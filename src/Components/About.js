@@ -1,4 +1,4 @@
-const myImg=new URL("../../images/myimg.png",import.meta.url).toString()
+const myImg=new URL("../../images/myImg.png",import.meta.url).toString()
 
 const About = () => {
   return (
