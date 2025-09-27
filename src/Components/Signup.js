@@ -24,7 +24,7 @@ const Signup = () => {
 
     try {
       const res = await axios.post(
-        "http://localhost:7777/auth/signup",
+        "https://pulsepad-backend.onrender.com",
         { name, email, password, gender },
         { withCredentials: true }
       );

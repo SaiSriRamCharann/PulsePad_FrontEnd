@@ -8,7 +8,7 @@ const GetJurnols = () => {
   const fetchJurnols = async () => {
     setErrorMsg("");
     try {
-      const res = await axios.get("http://localhost:7777/jurnols/getjurnol", {
+      const res = await axios.get("https://pulsepad-backend.onrender.com", {
         withCredentials: true,
       });
       setJurnols(res.data);

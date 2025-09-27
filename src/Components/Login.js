@@ -23,7 +23,7 @@ const Login=()=>{
            return;
          }
         try{
-            const res=await axios.post("http://localhost:7777/auth/login",{
+            const res=await axios.post("https://pulsepad-backend.onrender.com",{
             email,password
         },{withCredentials:true})
 
